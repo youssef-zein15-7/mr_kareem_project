@@ -354,6 +354,10 @@ nav .fas{
         display: block;
         font-size: 25px;
     }
+    nav .mylog{
+        height: 30%;
+        width: 30%;
+    }
     nav ul{
         background: #eeeeee;
         position: fixed;
@@ -406,7 +410,81 @@ nav .fas{
     display: block;
 }
 
+/* .language-button {
+    background-color: #f8c34f;
+    color: #262262;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    bottom: -10px;
+    left: 20px;
+    border-radius: 10px;
+    position: fixed;
+    width: 100px;
+    height: 55PX;
+    font-size: 22px;
+    z-index: 1000;
+  }
+  
+  .language-button:hover {
+    background-color: #262262;
+    color: #eeeeee;
+    transition: 1s;
+  }
+  
+  .language{
+    padding-left: 50px;
+  } */
 
+  .GoToTopButton{
+    position: fixed;
+    bottom: 90px;
+    left: 20px;
+    z-index: 99;
+    background-color: #f8c34f;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .GoToTopButton:hover i{
+    transform: translateY(3px);
+  }
+  .GoToTopButton:active{
+    transform: translateY(6px);
+  }
+  .GoToTopButton i{
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+  }
+  .GoToTopButto{
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    z-index: 99;
+    background-color: #f8c34f;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #262262;
+  }
 
+  .btf{
+    display: inline-block;
+    background: #eeeeee;
+    width: 200px;
+    padding: 10px;
+    text-decoration: none;
+    color: #262262;
+  }
 
-
+  .btf:hover{
+    background: #f8c34f;
+    transition: 0.5s;
+  }
